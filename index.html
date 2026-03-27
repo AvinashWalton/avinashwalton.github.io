@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avinash Walton | Official Portfolio</title>
+  <meta name="description" content="Official Portfolio of Avinash Walton (Sonu Suman): Indian Creative Entrepreneur, Digital Content Strategist, founder of Indraseva Publication, BCA student, Data Analytics Enthusiast."/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Avinash Walton | Official Portfolio"/>
+  <meta property="og:description" content="Indian Creative Entrepreneur, Data Analyst, Founder of Indraseva Publication."/>
+  <meta property="og:image" content="https://pbs.twimg.com/profile_images/1968530826725150720/wgGtMYur_400x400.jpg"/>
+  <meta property="og:type" content="website"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Portfolio Styles -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div id="scroll-bar"></div>
+
+<!-- Custom Cursor -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- Vedic Saffron Veil -->
+<div id="saffron-veil"></div>
+
+<!-- Animated Particle Canvas -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- Floating Vedic Mantras -->
+<div id="mantras-wrap"></div>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <div class="logo">AVINASH<span class="dot">.</span></div>
+
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certs</a>
+      <a href="#data-projects">Projects</a>
+      <a href="#verified">Verified</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-layout">
+
+      <div class="hero-text">
+        <div class="nakshatra-badge"><i class="fas fa-star"></i> Shatabhisha · Aquarius · Gemini Ascendant</div>
+        <div class="hero-eyebrow">Portfolio</div>
+        <h1><span class="name-glow">Avinash Walton</span></h1>
+        <div class="typewriter-line" id="typewriter"><span class="cursor"></span></div>
+        <p class="hero-desc">
+          Blending <b>BCA expertise</b> with Data Analytics. Founder of <b>CUT FACTS Podcast</b> and <b>Indraseva Group</b>. Turning data into decisions.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#" target="_blank"><i class="fas fa-file-download"></i> Resume</a>
+          <a class="btn btn-outline" href="#contact"><i class="fas fa-envelope"></i> Hire Me</a>
+        </div>
+        <div class="hero-stat-strip">
+          <div class="hero-stat-item">
+            <span class="hero-stat-num" data-count="30" data-suffix="+">0</span>
+            <span class="hero-stat-label">Books Published</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num" data-count="10" data-suffix="+">0</span>
+            <span class="hero-stat-label">Certifications</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num" data-count="10" data-suffix="+">0</span>
+            <span class="hero-stat-label">KP Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-img-wrap">
+        <div class="profile-ring"></div>
+        <div class="profile-img-inner">
+          <img alt="Avinash Walton" src="https://pbs.twimg.com/profile_images/1968530826725150720/wgGtMYur_400x400.jpg"/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">01 / About</span>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="glass-card reveal">
+        <p class="about-text">
+          <b>Avinash Walton (Sonu Kumar Suman)</b> is an Indian Creative Entrepreneur, Digital Content Strategist, and aspiring <b>Data Analyst</b>. With a strong foundation in BCA, he is passionate about deriving insights from data using tools like <b>SQL, PowerBI,</b> and Excel.
+        </p>
+        <div class="about-badge-row">
+          <span class="badge"><i class="fas fa-graduation-cap"></i> BCA Student</span>
+          <span class="badge"><i class="fas fa-chart-bar"></i> Data Analyst</span>
+          <span class="badge"><i class="fas fa-microphone-alt"></i> Podcaster</span>
+        </div>
+      </div>
+      <div class="glass-card reveal">
+        <p class="about-text">
+          Beyond technology, Avinash is deeply focused on self-growth. He actively mentors creators and hosts the <b>CUT FACTS Podcast</b>, bridging the gap between traditional values and modern digital innovation. He is also the Founder of <b>Indraseva Publication</b>.
+        </p>
+        <div class="about-badge-row">
+          <span class="badge"><i class="fas fa-book-open"></i> Author</span>
+          <span class="badge"><i class="fas fa-globe-asia"></i> Indian Creator</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ SKILLS ═══════════ -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">02 / Skills</span>
+      <h2 class="section-title">Tools &amp; Expertise</h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Technical proficiency across Data Analytics &amp; Creative domains.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-database"></i></div><div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-chart-bar"></i></div><div class="skill-top"><span class="skill-name">PowerBI</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-file-excel"></i></div><div class="skill-top"><span class="skill-name">MS Excel</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-code"></i></div><div class="skill-top"><span class="skill-name">HTML &amp; CSS</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fab fa-python"></i></div><div class="skill-top"><span class="skill-name">Python (Data Analysis)</span><span class="skill-pct">72%</span></div><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-palette"></i></div><div class="skill-top"><span class="skill-name">Canva</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-microphone-alt"></i></div><div class="skill-top"><span class="skill-name">Content Strategy</span><span class="skill-pct">87%</span></div><div class="skill-bar"><div class="skill-fill" data-width="87"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-language"></i></div><div class="skill-top"><span class="skill-name">English (C2)</span><span class="skill-pct">95%</span></div><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
+      <div class="skill-item reveal"><div class="skill-icon"><i class="fas fa-shield-alt"></i></div><div class="skill-top"><span class="skill-name">Cybersecurity</span><span class="skill-pct">65%</span></div><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ CERTIFICATIONS ═══════════ -->
+<section class="section" id="certs">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Credentials</span>
+      <h2 class="section-title">Certifications &amp; Badges</h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Professional credentials and verified achievements.</p>
+    </div>
+    <div class="cert-grid">
+      <a class="cert-card gold-border reveal" href="https://cert.efset.org/en/rMiWov" target="_blank">
+        <div class="cert-icon gold"><i class="fas fa-certificate"></i></div>
+        <div class="cert-title">EF SET English Certificate</div>
+        <div class="cert-desc">Score: 78/100 (C2 Proficient)<br/>EF Standard English Test · No Expiry</div>
+        <div class="cert-link gold">View Certificate <i class="fas fa-arrow-right cert-arrow"></i></div>
+      </a>
+      <a class="cert-card reveal" href="https://www.udemy.com/certificate/UC-f9477b44-9716-40db-8e3c-e55bc0bfff50/" target="_blank">
+        <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+        <div class="cert-title">Mastering Power BI</div>
+        <div class="cert-desc">From Data to Dashboard<br/>Issued by Udemy</div>
+        <div class="cert-link">View Credential <i class="fas fa-arrow-right cert-arrow"></i></div>
+      </a>
+      <a class="cert-card reveal" href="https://www.credly.com/badges/dc5c1dfa-fd37-4eaf-a8f6-d902f1cf8ac4/linked_in_profile" target="_blank">
+        <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="cert-title">Introduction to Cybersecurity</div>
+        <div class="cert-desc">Network Security Basics<br/>Issued by Cisco · Credly Badge</div>
+        <div class="cert-link">View Badge <i class="fas fa-arrow-right cert-arrow"></i></div>
+      </a>
+      <a class="cert-card reveal" href="https://www.udemy.com/certificate/UC-9910b4ca-0c8a-445e-98fa-c66b66910411/" target="_blank">
+        <div class="cert-icon"><i class="fas fa-file-excel"></i></div>
+        <div class="cert-title">Excel: Data Analysis for Business &amp; Finance</div>
+        <div class="cert-desc">Microsoft Excel Advanced Analytics<br/>Issued by Udemy</div>
+        <div class="cert-link">View Credential <i class="fas fa-arrow-right cert-arrow"></i></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section class="section" id="data-projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Projects</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Open-source work, data analytics &amp; language innovation.</p>
+    </div>
+    <div class="projects-grid">
+
+      <div class="desilang-card reveal">
+        <div class="desilang-badge"><i class="fas fa-star"></i> Original Language</div>
+        <div style="font-size:2.2rem; margin-bottom:10px;">🇮🇳</div>
+        <div style="font-family:'Playfair Display',serif; font-size:1.6rem; margin-bottom:10px; color:var(--text-1); font-weight:700;">DesiLang</div>
+        <p style="color:var(--text-2); margin-bottom:20px; line-height:1.7;">A programming language made for Indians — write code in Hindi-flavoured English syntax. Open-source &amp; available on PyPI.</p>
+        <div class="desilang-links-grid">
+          <a class="desilang-link-btn" href="https://avinashwalton.github.io/DesiLang/" target="_blank">
+            <i class="fas fa-play-circle"></i><span>Playground</span>
+          </a>
+          <a class="desilang-link-btn" href="https://github.com/AvinashWalton/DesiLang" target="_blank">
+            <i class="fab fa-github"></i><span>GitHub</span>
+          </a>
+          <a class="desilang-link-btn" href="https://pypi.org/project/desilang/" target="_blank">
+            <i class="fab fa-python"></i><span>PyPI</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-parent reveal">
+        <div class="project-parent-header">
+          <div class="project-parent-icon"><i class="fas fa-chart-line"></i></div>
+          <div>
+            <a class="project-parent-title" href="https://github.com/AvinashWalton/Data-Analytics-Projects" target="_blank" style="display:block; color:var(--text-1);">Data Analytics Projects</a>
+            <p class="project-parent-desc">End-to-end analytics portfolio on GitHub — PowerBI, SQL, and Excel automation.</p>
+            <a class="project-parent-link" href="https://github.com/AvinashWalton/Data-Analytics-Projects" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-sub-grid">
+          <a class="project-sub" href="https://github.com/AvinashWalton/Data-Analytics-Projects/tree/main/PowerBI%20Projects" target="_blank">
+            <div class="project-sub-icon"><i class="fas fa-chart-bar"></i></div>
+            <div class="project-sub-name">Sales Dashboard</div>
+            <div class="project-sub-tag">PowerBI · DAX</div>
+          </a>
+          <a class="project-sub" href="https://github.com/AvinashWalton/Data-Analytics-Projects" target="_blank">
+            <div class="project-sub-icon"><i class="fas fa-database"></i></div>
+            <div class="project-sub-name">SQL Database Design</div>
+            <div class="project-sub-tag">SQL · RDBMS</div>
+          </a>
+          <a class="project-sub" href="https://github.com/AvinashWalton/Data-Analytics-Projects" target="_blank">
+            <div class="project-sub-icon"><i class="fas fa-table"></i></div>
+            <div class="project-sub-name">Financial Report Automation</div>
+            <div class="project-sub-tag">Excel · VBA · Macros</div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ SERVICES ═══════════ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">05 / Services</span>
+      <h2 class="section-title">What I Offer</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card featured reveal">
+        <div class="service-icon"><i class="fas fa-check-circle"></i></div>
+        <div class="service-title">Google Knowledge Panel</div>
+        <p class="service-desc">Verified Knowledge Panel creation and management for public figures and organizations.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+        <div class="service-title">Data Analytics</div>
+        <p class="service-desc">Transforming raw data into actionable insights using PowerBI, SQL, and Excel.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-microphone-alt"></i></div>
+        <div class="service-title">Podcast Strategy</div>
+        <p class="service-desc">End-to-end guidance on launching and growing a successful podcast from scratch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ VERIFIED ═══════════ -->
+<section class="section" id="verified">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">06 / Verified</span>
+      <h2 class="section-title">Verified Works</h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Google Knowledge Panels &amp; Official Ventures.</p>
+    </div>
+    <div class="kp-grid">
+      <a class="kp-card founder reveal" href="https://sites.google.com/view/indraseva-publication/home" target="_blank">
+        <i class="fas fa-external-link-alt kp-external"></i>
+        <div class="kp-avatar" style="background:#fff; justify-content:center;"><i class="fas fa-book-open" style="color:#000; font-size:20px;"></i></div>
+        <div class="kp-badge founder-badge"><i class="fas fa-star"></i> Founder</div>
+        <div class="kp-name">Indraseva Publication</div>
+        <div class="kp-role">Publishing House</div>
+      </a>
+      <a class="kp-card reveal" href="https://share.google/NG23j0wm3JEgullQJ" target="_blank">
+        <i class="fas fa-external-link-alt kp-external"></i>
+        <div class="kp-avatar"><img alt="Tannon Sweet" src="https://www.rollingstone.co.uk/wp-content/uploads/sites/2/2025/11/image-3.jpeg"/></div>
+        <div class="kp-badge"><i class="fas fa-check-circle"></i> Verified</div>
+        <div class="kp-name">Tannon Sweet</div>
+        <div class="kp-role">Journalist</div>
+      </a>
+      <a class="kp-card reveal" href="https://share.google/pVS9sQ9ekIPTvQauu" target="_blank">
+        <i class="fas fa-external-link-alt kp-external"></i>
+        <div class="kp-avatar"><img alt="Sanya Bari" src="https://storage.googleapis.com/msgsndr/gfSynjRewzQWOeU3GBsr/media/68b77bb31e13117680dcaf47.jpeg"/></div>
+        <div class="kp-badge"><i class="fas fa-check-circle"></i> Verified</div>
+        <div class="kp-name">Sanya Bari</div>
+        <div class="kp-role">Coach</div>
+      </a>
+      <a class="kp-card reveal" href="https://share.google/PKprFKWnMM39oFVEE" target="_blank">
+        <i class="fas fa-external-link-alt kp-external"></i>
+        <div class="kp-avatar"><img alt="Avinash Walton" src="https://pbs.twimg.com/profile_images/1968530826725150720/wgGtMYur_400x400.jpg"/></div>
+        <div class="kp-badge"><i class="fas fa-check-circle"></i> Verified</div>
+        <div class="kp-name">Avinash Walton</div>
+        <div class="kp-role">Creative Entrepreneur</div>
+      </a>
+      <a class="kp-card reveal" href="https://share.google/1KC9lp4JmYdvitWsl" target="_blank">
+        <i class="fas fa-external-link-alt kp-external"></i>
+        <div class="kp-avatar"><img alt="Simran Soni" src="https://dwtr67e3ikfml.cloudfront.net/avatars/fd1636d-2322533.jpg"/></div>
+        <div class="kp-badge"><i class="fas fa-check-circle"></i> Verified</div>
+        <div class="kp-name">Simran Soni</div>
+        <div class="kp-role">Author</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ BOOKS ═══════════ -->
+<section class="section" id="books">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">07 / Publications</span>
+      <h2 class="section-title">Published Books</h2>
+      <div class="section-line"></div>
+    </div>
+    <div style="text-align:center; margin-bottom:36px;" class="reveal">
+      <a class="btn btn-gold" href="https://sites.google.com/view/indraseva-publication/home" target="_blank" style="margin:6px;"><i class="fas fa-book-open"></i> Indraseva Publication</a>
+      <a class="btn btn-outline" href="https://sites.google.com/view/avinashwalton/Home" target="_blank" style="margin:6px;">Browse All Books</a>
+    </div>
+    <div class="carousel-outer reveal">
+      <div class="carousel-track">
+        <div class="book-card"><div class="book-title">A Promise in the Dark</div><div class="book-genre">Fiction / Thriller</div></div>
+        <div class="book-card"><div class="book-title">The Art Beyond Acting</div><div class="book-genre">Arts / Guide</div></div>
+        <div class="book-card"><div class="book-title">Web Riches</div><div class="book-genre">Entrepreneurship</div></div>
+        <div class="book-card"><div class="book-title">Google Books Mastery</div><div class="book-genre">Publishing Guide</div></div>
+        <div class="book-card"><div class="book-title">The Evolution of Jazz</div><div class="book-genre">Music History</div></div>
+        <div class="book-card"><div class="book-title">The Future of Technology</div><div class="book-genre">Tech</div></div>
+        <div class="book-card"><div class="book-title">The Scamming World</div><div class="book-genre">Awareness</div></div>
+        <div class="book-card"><div class="book-title">A Promise in the Dark</div><div class="book-genre">Fiction / Thriller</div></div>
+        <div class="book-card"><div class="book-title">The Art Beyond Acting</div><div class="book-genre">Arts / Guide</div></div>
+        <div class="book-card"><div class="book-title">Web Riches</div><div class="book-genre">Entrepreneurship</div></div>
+        <div class="book-card"><div class="book-title">Google Books Mastery</div><div class="book-genre">Publishing Guide</div></div>
+        <div class="book-card"><div class="book-title">The Evolution of Jazz</div><div class="book-genre">Music History</div></div>
+        <div class="book-card"><div class="book-title">The Future of Technology</div><div class="book-genre">Tech</div></div>
+        <div class="book-card"><div class="book-title">The Scamming World</div><div class="book-genre">Awareness</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ DIVINE SHLOKA ═══════════ -->
+<section class="shloka-section">
+  <div class="container">
+    <div class="shloka-om" id="shlokaOm">ॐ</div>
+    <div class="shloka-text" id="shlokaText"></div>
+    <div class="shloka-source" id="shlokaSource"></div>
+    <div class="shloka-dots" id="shlokaDots"></div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ BLOG ═══════════ -->
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">08 / Blog</span>
+      <h2 class="section-title">From The Blog</h2>
+      <div class="section-line"></div>
+    </div>
+    <a class="blog-cta-card reveal" href="https://cutfacts.blogspot.com" target="_blank">
+      <div class="blog-icon"><i class="fas fa-pen-nib"></i></div>
+      <div class="blog-title">CUT FACTS Blog</div>
+      <p style="color:var(--text-2); font-size:1rem; margin-bottom:22px;">Read my latest articles on Technology, Spirituality, and Data Analytics.</p>
+      <span class="btn btn-outline">Read Articles <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </div>
+</section>
+
+<!-- ═══════════ PODCAST ═══════════ -->
+<section class="section" style="background:rgba(30,10,0,0.6);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">09 / Podcast</span>
+      <h2 class="section-title">Latest Podcast</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="podcast-wrap reveal">
+      <p style="color:var(--text-2); margin-bottom:24px; font-size:1rem;">Listen to <b style="color:var(--text-1);">CUT FACTS</b> on Spotify</p>
+      <div style="max-width:640px; margin:0 auto;">
+        <iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          allowfullscreen frameborder="0" height="352" loading="lazy"
+          src="https://open.spotify.com/embed/show/2bqfU7tEjuZRzeoSi810En?utm_source=generator"
+          style="border-radius:12px" width="100%"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-strip"></div>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">10 / Contact</span>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Let's build something together.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-channel">
+          <div class="channel-icon"><i class="fas fa-briefcase"></i></div>
+          <div>
+            <div class="channel-label">Services &amp; Projects</div>
+            <a class="channel-value" href="mailto:indrasevapublication@gmail.com">indrasevapublication@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-channel">
+          <div class="channel-icon"><i class="fas fa-user-tie"></i></div>
+          <div>
+            <div class="channel-label">Data Analyst Job Offers</div>
+            <a class="channel-value" href="mailto:connectwithsksuman@gmail.com">connectwithsksuman@gmail.com</a>
+          </div>
+        </div>
+        <div style="margin-top:20px;">
+          <a class="btn btn-primary" href="https://linktr.ee/AvinashWalton" style="width:100%; justify-content:center;" target="_blank">
+            <i class="fas fa-link"></i> Digital Business Card
+          </a>
+        </div>
+        <div class="social-row" style="margin-top:24px;">
+          <a class="social-btn" href="https://github.com/AvinashWalton" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="social-btn" href="https://instagram.com/AvinashWalton" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="social-btn" href="https://youtube.com/@AvinashWalton" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a class="social-btn" href="https://linkedin.com/in/SonuKumarSuman" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-btn" href="https://x.com/AvinashWalton" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="glass-card reveal">
+        <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:8px;">Quick Message</h3>
+        <p style="color:var(--text-2); font-size:0.9rem; margin-bottom:22px;">Send a direct message via this form.</p>
+        <form action="https://formsubmit.co/avinashwalton@gmail.com" method="POST">
+          <input name="_subject" type="hidden" value="New Portfolio Inquiry"/>
+          <input name="_captcha" type="hidden" value="false"/>
+          <div class="form-field"><input name="name" placeholder="Your Name" required type="text"/></div>
+          <div class="form-field"><input name="email" placeholder="Your Email" required type="email"/></div>
+          <div class="form-field"><textarea name="message" placeholder="Your Message" required rows="5"></textarea></div>
+          <button class="btn btn-primary" style="width:100%; justify-content:center;" type="submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="container">
+    <span class="footer-om">ॐ</span>
+    <div class="footer-logo">AVINASH<span>.</span></div>
+    <p style="margin-bottom:16px;">&#169; 2023 – 2026 Avinash Walton. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certs</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- Portfolio JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
